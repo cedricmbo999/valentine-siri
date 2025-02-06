@@ -46,10 +46,14 @@ body {
   bottom: 20px;
 }
 .siribtn {
+  position: absolute; 
+  top: -50px; /* Move higher by decreasing the value */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center
   border-radius: 50%;
-  width: 166px;
+  width: 266px;
   background-position: center;
-  height: 166px;
+  height: 266px;
   margin-top: -166px;
   z-index: 40;
   outline: none;
