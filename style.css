@@ -47,9 +47,9 @@ body {
 }
 .siribtn {
   border-radius: 50%;
-  width: 266px;
+  width: 166px;
   background-position: center;
-  height: 266px;
+  height: 166px;
   margin-top: -166px;
   z-index: 40;
   outline: none;
