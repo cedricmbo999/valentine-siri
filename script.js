@@ -21,7 +21,7 @@ recognition.onresult = function (event) {
   var command = event.results[last][0].transcript;
   var final = event.results[0].isFinal;
   if (command.toLowerCase() === "yes" || command.toLowerCase() === "okay") {
-    siriReponse.textContent = "Happy Valentines ❤️";
+    siriReponse.textContent = "Watch The Sphere 👁️";
   } else if (command.toLowerCase() === "no") {
     siriReponse.textContent = "You matter never give up on love 💔";
   } else {
